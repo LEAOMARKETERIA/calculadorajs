@@ -59,7 +59,7 @@ function calcularSimulacao() {
     comissao: parseFloat(comissao.toFixed(2))
   };
 
-  fetch("https://hook.us1.make.com/1u9xagsai2v3euu3lk0uwnrud2vx627n", {
+  fetch("https://hook.us1.make.com/mqae7omxgmno4jto0vlzuunaekqrsxji", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(payload)
